@@ -1,0 +1,130 @@
+{
+    "Navbar":{
+        "brand":"Foodle",
+        "home":"Home",
+        "offer":"Offer",
+        "service":"Service",
+        "menu":"Menu",
+        "aboutus":"About Us",
+        "CTA":{
+            "login":"Login",
+            "Signup":"Sign up"
+        }
+    },
+    "HeroSection":{
+        "heading":"All Fast Food is Available at Foodle",
+        "paragraph":"We are just a click away when you crave for delicious fast food",
+        "buy":"Buy Now",
+        "features":{
+            "fast":"Fast delivery",
+            "fresh":"Fresh food",
+            "free":"Free delivery"
+        },
+        "heroimg":"/assets/images/2d-food/burger.png",
+        "icons":{
+            "buy":"/assets/icons/cart.svg",
+            "fast":"/assets/icons/motorcycle.svg",
+            "fresh":"/assets/icons/burger-solid.svg",
+            "free":"/assets/icons/person-biking-solid.svg"
+        }
+    },
+    "Extra":{
+        "best":"Best Delivered Categories",
+        "info":"Here are some of the best delivered categories.If you want,you can order from here",
+        "order":"Order Now",
+        "pizza":{
+            "text":"Peperoni Pizza",
+            "img":"/assets/images/2d-food/pizza.png"
+        },
+        "springroll":{
+            "text":"Sweet Spring roll",
+            "img":"/assets/images/2d-food/springroll.png"
+        },
+        "hotdog":{
+            "text":"Meaty hotdog",
+            "img":"/assets/images/2d-food/hotdog.png"
+        }
+    },
+    "RegularMenu":{
+        "heading":"Our Regular Menu",
+        "paragraph":"These are our regular menus.You can order anything you like.",
+        "see":"See All",
+        "buy":"Buy Now",
+        "star":"/assets/icons/star-solid.svg",
+        "fooditems":[
+            {
+                "text":"Chicken Burger",
+                "img":"/assets/images/food/chicken-burger.jpg",
+                "price":"3.50",
+                "reviews":160
+            },
+            {
+                "text":"Sweet Pizza",
+                "img":"/assets/images/food/sweetpizza.jpg",
+                "price":"7.90",
+                "reviews":200
+            },
+            {
+                "text":"Chicken Wings",
+                "img":"/assets/images/food/chicken-wings.jpg",
+                "price":"7.90",
+                "reviews":200
+            },
+            {
+                "text":"Grilled Sausage",
+                "img":"/assets/images/food/grilledsausage.jpg",
+                "price":"7.90",
+                "reviews":200
+            },
+            {
+                "text":"Fried Spring Rolls",
+                "img":"/assets/images/food/springrolls.jpg",
+                "price":"7.90",
+                "reviews":200
+            },
+            {
+                "text":"Sweet Hotdog",
+                "img":"/assets/images/food/hotdog.jpg",
+                "price":"7.90",
+                "reviews":200
+            },
+            {
+                "text":"Italian Pasta Spaghetti",
+                "img":"/assets/images/food/spaghetti.jpg",
+                "price":"7.90",
+                "reviews":200
+            },
+            {
+                "text":"Mexican Tacos",
+                "img":"/assets/images/food/tacos.jpg",
+                "price":"7.90",
+                "reviews":200
+            },
+            {
+                "text":"Sandwich with Cucumbers",
+                "img":"/assets/images/food/sandwich.jpg",
+                "price":"7.90",
+                "reviews":200
+            }
+        ]
+    },
+    "Footer":{
+        "icons":{
+            "pinterest":"/assets/icons/pinterest.svg",
+            "instagram":"/assets/icons/instagram.svg",
+            "twitter":"/assets/icons/twitter.svg",
+            "facebook":"/assets/icons/facebook.svg"
+        },
+        "text":{
+            "food":"Foodish",
+            "follow":"Follow Us On",
+            "contact":"Contact"
+        },
+        "foodish_text":"Continue Foodish 2024 all rights reserved",
+        "contact":{
+            "phoneno":"+123 456 789",
+            "explore":"Explore",
+            "info":"info@Foodsih.com"
+        }
+    }
+}
