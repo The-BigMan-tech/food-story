@@ -1,7 +1,7 @@
 <script>
     import content from '../../content/content.json'
     import Heading from './Heading.svelte';
-    import MenuItem from './MenuItem.svelte';
+    import MenuItem from '../../routes/menuitem/+page.svelte';
     let regular = content.RegularMenu
     let regular_menu = regular.heading.split(' ')
     let food = regular.fooditems

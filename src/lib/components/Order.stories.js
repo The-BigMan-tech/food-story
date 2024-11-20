@@ -1,9 +1,10 @@
-import Order from "./order.svelte";
+import Order from "./Order.svelte"
 
 export default {
-    title:'Order',
+    title:"Order",
     component:Order
 }
+
 function Template(args) {
     return {
         Component:Order,
