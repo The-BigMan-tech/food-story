@@ -24,7 +24,7 @@
             <p>{description}</p>
         </div>
         <div class="flex">
-            <AddItem {item_count}/>
+            <AddItem item_count={item_count}/>
             <button>Add to Cart</button>
         </div>
     </div>
