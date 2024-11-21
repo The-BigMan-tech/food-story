@@ -137,7 +137,7 @@
         }
     },
     "Order": {
-        "add":"/assets/icons/plus.svg",
+        "add":"/assets/icons/add.svg",
         "remove":"/assets/icons/minus.svg"
     }
 }

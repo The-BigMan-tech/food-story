@@ -9,5 +9,6 @@
     console.log("RECEIVED",data[index+1])
     let particular_order = data[index+1]
 </script>
-
-<Order text={particular_order.text} description={particular_order.description} image={particular_order.img} price={particular_order.price} reviews={particular_order.reviews}/>
+<div class="flex justify-center relative top-24">
+    <Order text={particular_order.text} description={particular_order.description} image={particular_order.img} price={particular_order.price} reviews={particular_order.reviews}/>
+</div>

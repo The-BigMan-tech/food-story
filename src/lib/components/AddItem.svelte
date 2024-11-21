@@ -10,8 +10,8 @@
     }
 </script>
 
-<div class="flex items-center">
-    <button onclick={increase}><img class="w-10" src={content.Order.add} alt=""></button>
-    <p>{item_count}</p>
-    <button onclick={decrease}><img class="w-10" src={content.Order.remove} alt=""></button>
+<div class="flex items-center justify-around px-4 gap-7 border border-[#db5772] h-8 rounded-lg py-5">
+    <button onclick={increase}><img class="w-3" src={content.Order.add} alt=""></button>
+    <p class="text-lg">{item_count}</p>
+    <button onclick={decrease}><img class="w-3" src={content.Order.remove} alt=""></button>
 </div>
