@@ -1,10 +1,12 @@
-<script>
+<script module>
     import content from '../../content/content.json'
     import Heading from './Heading.svelte';
     import MenuItem from '../../routes/menuitem/+page.svelte';
     let regular = content.RegularMenu
     let regular_menu = regular.heading.split(' ')
     let food = regular.fooditems
+
+    export const order_data = [...food]
 </script>
 
 <div class="flex flex-col ml-10 mt-20">
@@ -14,7 +16,7 @@
     </div>
     <div class="grid grid-cols-[repeat(3,24rem)] grid-rows-3 gap-y-10">
         {#each food as item}
-            <MenuItem image={item.img} text={item.text} star_img={regular.star} reviews={item.reviews} price={item.price} buy={regular.buy} star_count=5/>
+            <MenuItem index={food.indexOf(item)} image={item.img} text={item.text} star_img={regular.star} reviews={item.reviews} price={item.price} buy={regular.buy} star_count=5/>
         {/each}
     </div>
 </div>
