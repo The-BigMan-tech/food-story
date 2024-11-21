@@ -5,8 +5,8 @@
 
     let {data} = $props()
     const share = getContext('sharedData')
-    console.log(get(share))
-    console.log("RECEIVED",data[share])
+    let index = get(share)['key']
+    console.log("RECEIVED",data[index+1])
     
 </script>
 
