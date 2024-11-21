@@ -2,9 +2,20 @@
     import Stars from "./Stars.svelte";
     import AddItem from "./AddItem.svelte";
     import Page from "../../routes/+page.svelte";
-    
+    import { getContext, onMount } from 'svelte';
+    import { get } from "svelte/store";
+
+    const cart_count = getContext('cart')
     let {text,description,image,price,reviews} = $props()
-    let item_count = $state(0)
+    console.log("CONTEXT",get(cart_count)[text])
+    let save = get(cart_count)[text]
+    let item_count = $state(save)
+
+    function addtoCart() {
+        console.log("ITEMS",item_count)
+        cart_count.update(currentCart => ({...currentCart,[text]: item_count }));
+        item_count = get(cart_count)[text]
+    }
 </script>
 
 <div class="flex items-center justify-center bg-[#c63451] text-white gap-12 shadow-xl py-5 rounded-xl px-6 w-[60rem]">
@@ -30,8 +41,8 @@
             <p class="font-sans">{description}</p>
         </div>
         <div class="flex gap-10 relative items-center">
-            <AddItem item_count={item_count} text={text}/>
-            <button class="bg-white text-[#c63451] rounded-2xl w-32 absolute left-44 py-3 shadow-md">Add to Cart</button>
+            <AddItem bind:item_count={item_count}/>
+            <button onclick={addtoCart} class="bg-white text-[#c63451] rounded-2xl w-32 absolute left-44 py-3 shadow-md">Add to Cart</button>
         </div>
     </div>
 </div>

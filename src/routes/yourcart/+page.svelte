@@ -8,4 +8,4 @@
     let item_count = get(count)
 </script>
 
-<YourCart count={item_count}/>
+<YourCart items={item_count}/>
