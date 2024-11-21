@@ -12,8 +12,12 @@
         <h2>{navcontent.menu}</h2>
         <h2>{navcontent.aboutus}</h2>
     </div>
-    <div class="flex absolute right-16 gap-10 text-white">
-        <h2 class="relative top-3">{navcontent.CTA.login}</h2>
-        <h2 class="border border-red-400 rounded-2xl px-5 py-3">{navcontent.CTA.Signup}</h2>
+    <div class="flex absolute right-16 gap-10 text-white items-center">
+        <h2>{navcontent.CTA.login}</h2>
+        <h2 class="border border-red-400 rounded-2xl px-5 py-3">{navcontent.CTA.Signup}</h2> 
+        <a class="flex gap-3" href="/yourcart">
+            <img class="w-6" src={navcontent.cart} alt="">
+            <h1>Your cart</h1>
+        </a>
     </div>
 </div>

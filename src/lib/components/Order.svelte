@@ -2,9 +2,11 @@
     import Stars from "./Stars.svelte";
     import AddItem from "./AddItem.svelte";
     import Page from "../../routes/+page.svelte";
+    
     let {text,description,image,price,reviews} = $props()
     let item_count = $state(0)
 </script>
+
 <div class="flex items-center justify-center bg-[#c63451] text-white gap-12 shadow-xl py-5 rounded-xl px-6 w-[60rem]">
     <div class="flex flex-col">
         <img class="w-[110rem] h-[17rem] rounded-xl" src={image} alt="">
@@ -28,7 +30,7 @@
             <p class="font-sans">{description}</p>
         </div>
         <div class="flex gap-10 relative items-center">
-            <AddItem item_count={item_count}/>
+            <AddItem item_count={item_count} text={text}/>
             <button class="bg-white text-[#c63451] rounded-2xl w-32 absolute left-44 py-3 shadow-md">Add to Cart</button>
         </div>
     </div>

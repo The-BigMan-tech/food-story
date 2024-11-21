@@ -1,12 +1,18 @@
 <script>
     import content from '../../content/content.json'
-    let {item_count} = $props()
+    import { getContext } from 'svelte';
+    let {item_count,text} = $props()
+
+    const cart_count = getContext('cart')
     function increase() {
         item_count += 1
+       // cart_count.set({[details]:item_count})
+        cart_count.update(currentCart => ({...currentCart,[text]: item_count }));
     }
     function decrease() {
         if (item_count == 0) return;//Sick one liner
         item_count -= 1
+        //cart_count.set({[details]:item_count})
     }
 </script>
 

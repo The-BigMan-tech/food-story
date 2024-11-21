@@ -9,7 +9,8 @@
         "CTA":{
             "login":"Login",
             "Signup":"Sign up"
-        }
+        },
+        "cart":"/assets/icons/white-cart.svg"
     },
     "HeroSection":{
         "heading":"All Fast Food is Available at Foodle",
@@ -88,7 +89,7 @@
                 "description":"Delight in Our Crispy Fried Spring Rolls!Treat yourself to our Fried Spring Rolls, perfectly crispy on the outside and filled with a savory blend of fresh vegetables and tender meat. Each roll is hand-wrapped and fried to golden perfection, delivering a satisfying crunch with every bite.Customization and Perfect Pairings: Enjoy your spring rolls with a side of sweet chili or soy sauce for dipping. Pair them with a fresh salad or a bowl of soup for a light yet fulfilling meal. Come by today and experience the deliciousness!"
             },
             {
-                "text":"Sweet Hotdog",
+                "text":"Hotdog",
                 "img":"/assets/images/food/hotdog.jpg",
                 "price":"7.90",
                 "reviews":200,
