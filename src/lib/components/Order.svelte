@@ -9,7 +9,7 @@
     let {text,description,image,price,reviews} = $props()
     console.log("CONTEXT",get(cart_count)[text])
     let save = get(cart_count)[text]
-    let item_count = $state(save)
+    let item_count = $state(save || 0)
 
     function addtoCart() {
         console.log("ITEMS",item_count)
