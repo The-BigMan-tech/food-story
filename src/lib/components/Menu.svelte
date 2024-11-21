@@ -16,7 +16,7 @@
     </div>
     <div class="grid grid-cols-[repeat(3,24rem)] grid-rows-3 gap-y-10">
         {#each food as item}
-            <MenuItem index={food.indexOf(item)} image={item.img} text={item.text} star_img={regular.star} reviews={item.reviews} price={item.price} buy={regular.buy} star_count=5/>
+            <MenuItem index={food.indexOf(item)} image={item.img} text={item.text} reviews={item.reviews} price={item.price} buy={regular.buy} star_count=5/>
         {/each}
     </div>
 </div>

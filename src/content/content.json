@@ -56,55 +56,64 @@
                 "text":"Chicken Burger",
                 "img":"/assets/images/food/chicken-burger.jpg",
                 "price":"3.50",
-                "reviews":160
+                "reviews":160,
+                "description":"Introducing Our Delicious Chicken Burger!Craving something mouthwatering? Our Chicken Burger features a juicy, tender chicken breast, marinated and grilled to perfection. Topped with our signature sauce, crisp lettuce, ripe tomatoes, and crunchy pickles, it's a flavor explosion in every bite!Customization and Pairings: Personalize your burger with options like cheese, avocado, or jalapeños. Enjoy it with a side of crispy fries and a refreshing drink for the ultimate meal. Come treat yourself today—you won’t regret it!"
             },
             {
                 "text":"Sweet Pizza",
                 "img":"/assets/images/food/sweetpizza.jpg",
                 "price":"7.90",
-                "reviews":200
+                "reviews":200,
+                "description":"Try Our Irresistible Chicken Pizza!Satisfy your cravings with our Chicken Pizza, topped with tender, marinated chicken, zesty tomato sauce, and a blend of melted mozzarella and cheddar cheese. Each slice is a delightful combination of flavors, finished with fresh vegetables like bell peppers and onions for that perfect crunch!Customization and Perfect Pairings: Choose your favorite toppings—add mushrooms, olives, or extra cheese to make it your own. Pair it with a side salad or garlic bread for the complete experience. Visit us today and enjoy a slice of pizza perfection!"
             },
             {
                 "text":"Chicken Wings",
                 "img":"/assets/images/food/chicken-wings.jpg",
                 "price":"7.90",
-                "reviews":200
+                "reviews":200,
+                "description":"Enjoy Our Flavorful Chicken Wings!Dive into our Chicken Wings, perfectly seasoned and cooked to crispy perfection! Choose from a variety of mouthwatering sauces, including classic buffalo, tangy barbecue, and zesty garlic parmesan. Each wing is tender on the inside and bursting with flavor on the outside.Customization and Perfect Pairings: Customize your wings with your favorite sauces and heat levels. Pair them with a side of creamy ranch or blue cheese dressing and crispy celery sticks for the ultimate snack. Come in today and savor the wing experience everyone is talking about!"
             },
             {
                 "text":"Grilled Sausage",
                 "img":"/assets/images/food/grilledsausage.jpg",
                 "price":"7.90",
-                "reviews":200
+                "reviews":200,
+                "description":"Savor Our Grilled Sausage!Indulge in our Grilled Sausage, expertly seasoned and cooked to perfection over an open flame. With a rich, smoky flavor and a juicy bite, each sausage is crafted from high-quality meats and spices, ensuring a delicious experience in every mouthful.Customization and Perfect Pairings: Enjoy your sausage on a freshly baked bun with your choice of toppings, from tangy mustard to sautéed onions and peppers. Pair it with a side of crispy fries or a refreshing coleslaw for a satisfying meal. Visit us today to taste the difference!"
             },
             {
                 "text":"Fried Spring Rolls",
                 "img":"/assets/images/food/springrolls.jpg",
                 "price":"7.90",
-                "reviews":200
+                "reviews":200,
+                "description":"Delight in Our Crispy Fried Spring Rolls!Treat yourself to our Fried Spring Rolls, perfectly crispy on the outside and filled with a savory blend of fresh vegetables and tender meat. Each roll is hand-wrapped and fried to golden perfection, delivering a satisfying crunch with every bite.Customization and Perfect Pairings: Enjoy your spring rolls with a side of sweet chili or soy sauce for dipping. Pair them with a fresh salad or a bowl of soup for a light yet fulfilling meal. Come by today and experience the deliciousness!"
             },
             {
                 "text":"Sweet Hotdog",
                 "img":"/assets/images/food/hotdog.jpg",
                 "price":"7.90",
-                "reviews":200
+                "reviews":200,
+                "description":"Relish Our Classic Hot Dog!Enjoy our Classic Hot Dog, featuring a juicy, grilled sausage nestled in a soft, fresh bun. Topped with yourchoice of mustard, ketchup, onions, and relish, it’s a timeless favorite that packs a flavorful punch inevery bite.Customization and Perfect Pairings: Personalize your hot dog with toppings like sauerkraut, jalapeños, orcheese. Pair it with a side of crispy fries or a refreshing drink for the perfect meal on the go. Stop bytoday and savor the taste of this beloved classic!"
             },
             {
                 "text":"Italian Pasta Spaghetti",
                 "img":"/assets/images/food/spaghetti.jpg",
                 "price":"7.90",
-                "reviews":200
+                "reviews":200,
+                "description":"Indulge in Our Italian Spaghetti!Savor the authentic taste of our Italian Spaghetti, made with perfectly al dente pasta and tossed in a rich,homemade marinara sauce. Each dish is generously topped with savory herbs, freshly grated parmesan, and yourchoice of meatballs or grilled chicken for an extra boost of flavor.Customization and Perfect Pairings: Enhance your meal with additional toppings like olives, mushrooms, or asprinkle of red pepper flakes. Pair it with garlic bread and a crisp side salad for a complete diningexperience. Join us today and enjoy a true taste of Italy!"
             },
             {
                 "text":"Mexican Tacos",
                 "img":"/assets/images/food/tacos.jpg",
                 "price":"7.90",
-                "reviews":200
+                "reviews":200,
+                "description":"Enjoy Our Flavorful Mexican Tacos!Dive into our Mexican Tacos, featuring soft or crispy tortillas filled with your choice of seasoned meats,including grilled chicken, beef, or tender pork. Each taco is topped with fresh cilantro, diced onions, anda squeeze of lime for a burst of authentic flavor.Customization and Perfect Pairings: Personalize your tacos with toppings like salsa, guacamole, or cheese.Pair them with a side of chips and salsa or a refreshing drink for the ultimate fiesta experience. Visit ustoday and taste the vibrant flavors of Mexico!"
             },
             {
                 "text":"Sandwich with Cucumbers",
                 "img":"/assets/images/food/sandwich.jpg",
                 "price":"7.90",
-                "reviews":200
+                "reviews":200,
+                "description":"Try Our Refreshing Cucumber Sandwich!Delight in our Cucumber Sandwich, featuring fresh, crisp cucumber slices layered between soft, artisanbread. Spread with a creamy herb-infused cheese or a tangy yogurt dressing, this sandwich is light,refreshing, and perfect for any time of day.Customization and Perfect Pairings: Add your choice of ingredients like tomatoes, lettuce, or smoked turkeyfor extra flavor. Pair it with a side of mixed greens or a chilled soup for a delightful meal. Stop by todayand enjoy this refreshing treat!"
             }
         ]
     },
@@ -126,5 +135,9 @@
             "explore":"Explore",
             "info":"info@Foodsih.com"
         }
+    },
+    "Order": {
+        "add":"/assets/icons/plus.svg",
+        "remove":"/assets/icons/minus.svg"
     }
 }

@@ -3,8 +3,9 @@
     import { getContext } from "svelte";
     import { goto } from "$app/navigation";
     import Order from "../../routes/order/[text]/+page.svelte";
+    import Stars from "./Stars.svelte";
 
-    let {index,image,text,star_img,star_count,reviews,price,buy,order} = $props()
+    let {index,image,text,star_count,reviews,price,buy,order} = $props()
     const sharedData = getContext('sharedData');
 
     function handleLinkClick(event) {
@@ -19,9 +20,7 @@
     <h1 class="font-space_mono font-bold text-lg text-center mb-1 mt-2">{text}</h1>
     <div class="flex gap-3">
         <div class="flex">
-            {#each  Array.from({ length:star_count }, (_, i) => i) as star}
-                <img class="w-4" src={star_img} alt="">
-            {/each}
+            <Stars star_count={star_count}/>
         </div>
         <p class="text-sm">{reviews} reviews</p>
     </div>
